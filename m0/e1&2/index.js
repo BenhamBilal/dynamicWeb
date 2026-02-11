@@ -29,11 +29,20 @@
 // Een plek waar het resultaat komt
 // Het speciale: gebruik 'use strict' en zorg dat je code controleert of er wel echt getallen worden ingevoerd.
 
-let input1 = document.getElementById('input1');
-let input2 = document.getElementById('input2');
-let result = document.getElementById('result');
-let calculateButton = document.getElementById('calculateButton');
+// let input1 = document.getElementById('input1');
+// let input2 = document.getElementById('input2');
+// let result = document.getElementById('result');
+// let calculateButton = document.getElementById('calculateButton');
 
-calculateButton.addEventListener('click', function (){
-    result.textContent = parseInt(input1.value) / parseInt(input2.value) 
-})
+// calculateButton.addEventListener('click', function (){
+//     result.textContent = parseInt(input1.value) / parseInt(input2.value) 
+// })
+
+// H1: Light/Dark Toggle
+// Maak een knop die de pagina wisselt tussen een licht en donker thema.
+
+// Vereisten:
+
+// Gebruik een extern JavaScript bestand
+// Verander minstens 3 stijleigenschappen (bijvoorbeeld achtergrondkleur, tekstkleur en linkkleur)
+// Laat de knop ook van tekst veranderen ("Donker thema" / "Licht thema")
